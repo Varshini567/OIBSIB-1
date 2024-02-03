@@ -1,0 +1,149 @@
+
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style-type:none;
+    box-sizing: border-box;
+
+}
+
+.back::before{
+    content: "";
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background:url("/media/border.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:0.6;
+}
+
+nav{
+    isolation: isolate;
+    background-color:#008b47;
+    height: 80px;
+    margin-top: 20px;
+    }
+.logo{
+    color:white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 10 100pz;
+    margin:10px;
+    margin-bottom: 50PX;
+    font-weight: bold;
+    
+}
+nav ul{
+    float:right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+
+nav ul li a{
+    color:white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a:hover{
+    background:#6bb64a;
+    transition: 0.5s;
+}
+
+.beh1
+{
+    isolation: isolate;
+    border: 30px;
+    background:#008b47;
+    margin:180px;
+    margin-top: 30px;
+    padding : 50px;
+    padding-bottom: 80px;
+    margin-right: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 40px;
+
+}
+.content1
+{
+    isolation: isolate;
+    border:100px;
+    background:#6bb64a;
+    margin:200px;
+    margin-right:0px ;
+    margin-top: -290px;
+    padding:40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 40px;
+
+}
+
+.ima1
+{
+    position:absolute;
+    top:120px;
+    left:50px;
+}
+.beh2{
+    position: relative;
+    bottom: 150px;
+    isolation: isolate;
+    border: 30px;
+    background:#008b47;
+    margin:180px;
+    margin-top:50px;
+    padding : 50px;
+    padding-bottom: 80px;
+    margin-left: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 40px;
+}
+.content2
+{
+    position: relative;
+    bottom:150px;
+    isolation: isolate;
+    border:100px;
+    background:#6bb64a;
+    margin:200px;
+    margin-left:0px ;
+    margin-top: -290px;
+    padding:40px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 40px;
+
+}
+.ima2
+{
+    position: absolute;
+    top:280px;
+    right:50px;
+}
+.but
+{
+    isolation: isolate;
+    text-align:center;
+    position: relative;
+    bottom:230px;
+}
+button{
+    background-color: #6bb64a;
+    font-size:40px;
+    color: white;
+    padding:15px 25px;
+    border-radius: 10px;
+    border:#008b47;
+}
+
+
